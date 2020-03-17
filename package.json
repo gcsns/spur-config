@@ -1,7 +1,7 @@
 {
   "name": "spur-config",
   "description": "Configuration framework to help manage complex application configurations in Node.js.",
-  "version": "2.0.0",
+  "version": "2.0.0-SNYK-JS-MINIMIST-559764",
   "main": "./src/SpurConfig",
   "author": {
     "name": "Agustin Colchado",
@@ -25,18 +25,17 @@
     "test": "npm run test-unit && npm run test-integration"
   },
   "bugs": {
-    "url": "https://github.com/opentable/spur-config/issues"
+    "url": "https://github.com/gcsns/spur-config/issues"
   },
-  "homepage": "https://github.com/opentable/spur-config",
+  "homepage": "https://github.com/gcsns/spur-config",
   "repository": {
     "type": "git",
-    "url": "git://github.com/opentable/spur-config.git"
+    "url": "git://github.com/gcsns/spur-config.git"
   },
   "dependencies": {
     "lodash.foreach": "^4.5.0",
     "lodash.isfunction": "^3.0.9",
     "lodash.merge": "^4.6.2",
-    "mkdirp": "^0.5.1",
     "require-all": "^2.0.0"
   },
   "devDependencies": {
